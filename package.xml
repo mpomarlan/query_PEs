@@ -1,0 +1,35 @@
+<package>
+  <name>query_PEs</name>
+  <version>0.0.1</version>
+  <description>Query PE server and generate CRAM plans.</description>
+  <author email="mpomarlan@yahoo.co.uk">Mihai Pomarlan</author>
+  <maintainer email="mpomarlan@yahoo.co.uk">Mihai Pomarlan</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://cram-system.org</url>
+  <url type="bugtracker">https://github.com/mpomarlan/query_PEs/issues</url>
+  <url type="repository">https://github.com/mpomarlan/query_PEs</url>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend> 
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>actionlib</build_depend>
+  <build_depend>cram_language</build_depend>
+  <build_depend>cram_process_modules</build_depend>
+  <build_depend>cram_reasoning</build_depend>
+  <build_depend>cram_designators</build_depend>
+  <build_depend>planning_msgs</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>actionlib</run_depend>
+  <run_depend>cram_language</run_depend>
+  <run_depend>cram_process_modules</run_depend>
+  <run_depend>cram_reasoning</run_depend>
+  <run_depend>cram_designators</run_depend>
+  <run_depend>planning_msgs</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+
+</package>
